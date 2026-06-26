@@ -1,20 +1,26 @@
-# ThreatWatch: Cyber Threat Detection Engine
+# Cybersecurity Log Analyzer
 
-A Python-based threat detection system that analyzes authentication and system logs to identify suspicious activity.
+A lightweight Python-based tool that analyzes authentication logs to detect suspicious activity.
 
 ## Features
-- Brute-force detection
-- Failed login analysis
-- Suspicious IP detection
-- Privilege escalation alerts
-- YAML-based detection rules
-- Sample logs and alert reports
+- Brute-force detection based on repeated failed logins
+- High-volume failed login detection
+- Suspicious IP detection using a YAML-based configuration
+- Sample logs and report for demonstration
 
 ## Purpose
-This project demonstrates practical cybersecurity engineering skills, including log analysis, threat detection logic, and automated alerting.
+This project demonstrates practical cybersecurity skills in:
+- Log analysis
+- Threat detection logic
+- Python scripting
+- Basic alert reporting
 
 ## How to Run
-python engine/threat_engine.py
+1. Install dependencies:
+   pip install pyyaml
+
+2. Run the analyzer:
+   python analyzer.py
 
 ## Author
-Chinenye — Cybersecurity Governance & Technical Security Enthusiast
+Chinenye – Cybersecurity Governance & Technical Security Enthusiast
